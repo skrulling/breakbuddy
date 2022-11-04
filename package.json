@@ -3,6 +3,11 @@
   "displayName": "BreakBuddy",
   "description": "Stay productive by taking frequent breaks my fellow brogrammers!",
   "version": "0.0.1",
+  "publisher": "mikkelvarher",
+  "repository": {
+    "url": "https://github.com/skrulling/breakbuddy"
+  },
+  "icon": "images/breakbuddy.png",
   "engines": {
     "vscode": "^1.73.0"
   },
