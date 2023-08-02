@@ -16,18 +16,23 @@
   ],
   "activationEvents": [
     "onCommand:breakbuddy.start",
-    "onCommand:breakbuddy.stop"
+    "onCommand:breakbuddy.stop",
+    "onCommand:breakbuddy.pomodoroStart"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "breakbuddy.start",
-        "title": "Start BreakBuddy"
+        "title": "Breakbuddy: Start"
       },
       {
         "command": "breakbuddy.stop",
-        "title": "Stop BreakBuddy"
+        "title": "BreakBuddy: Stop"
+      },
+      {
+        "command": "breakbuddy.pomodoroStart",
+        "title": "BreakBuddy: Start Pomodoro Mode"
       }
     ]
   },
