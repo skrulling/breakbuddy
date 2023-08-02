@@ -2,7 +2,7 @@
   "name": "breakbuddy",
   "displayName": "BreakBuddy",
   "description": "Stay productive by taking frequent breaks my fellow brogrammers!",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "mikkelvarher",
   "repository": {
     "url": "https://github.com/skrulling/breakbuddy"
@@ -17,7 +17,8 @@
   "activationEvents": [
     "onCommand:breakbuddy.start",
     "onCommand:breakbuddy.stop",
-    "onCommand:breakbuddy.pomodoroStart"
+    "onCommand:breakbuddy.pomodoroStart",
+    "onCommand:breakbuddy.showStats"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -33,6 +34,10 @@
       {
         "command": "breakbuddy.pomodoroStart",
         "title": "BreakBuddy: Start Pomodoro Mode"
+      },
+      {
+        "command": "breakbuddy.showStats",
+        "title": "Breakbuddy: Show Statistics"
       }
     ]
   },
