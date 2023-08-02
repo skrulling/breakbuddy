@@ -2,7 +2,7 @@
   "name": "breakbuddy",
   "displayName": "BreakBuddy",
   "description": "Stay productive by taking frequent breaks my fellow brogrammers!",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "mikkelvarher",
   "repository": {
     "url": "https://github.com/skrulling/breakbuddy"
