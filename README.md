@@ -31,3 +31,5 @@ To start the Pomodoro Mode, just run the `breakbuddy.pomodoroStart` command in t
 That's it, bro! Now get back to that grind and let BreakBuddy handle your break schedule.
 
 Remember, staying productive isn't about working non-stop. It's about working smart. And taking regular breaks is part of working smart. So let's get those gains, bro! 💪💪💪
+
+![Breakbuddy logo](images/breakbuddyLogoTransparentSmaller.png)
